@@ -96,7 +96,7 @@ $(function () {
 
   let typesTween = new TimelineMax();
 
-  typesTween.from(" #types .col", {
+  typesTween.from("#types .col", {
     scale: 0.5,
     opacity: 0,
     stagger: 0.25,
